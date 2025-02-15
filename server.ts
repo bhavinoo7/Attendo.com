@@ -407,9 +407,9 @@ app.prepare().then(() => {
   });
 
   // Start the server on the desired port
-  
-  httpServer.listen(3000,"0.0.0.0", () => {
-    console.log(`> Ready on http://localhost:3000`);
+  const PORT = process.env.PORT  ;
+  httpServer.listen(PORT, () => {
+    console.log(`> Ready on http://localhost:${PORT}`);
   });
 
 });
