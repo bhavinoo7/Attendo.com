@@ -4,9 +4,7 @@ import shutil
 import numpy as np
 from fastapi.middleware.cors import CORSMiddleware
 from pymongo import MongoClient
-from deepface import DeepFace
 import mediapipe as mp
-import torch
 from scipy.spatial.distance import cosine
 import os
 import requests
