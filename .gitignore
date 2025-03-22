@@ -1,0 +1,14 @@
+# Virtual Environment
+.venv/
+
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+
+# Logs & Temporary Files
+*.log
+.DS_Store
