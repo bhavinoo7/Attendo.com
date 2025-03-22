@@ -7,6 +7,8 @@ from pymongo import MongoClient
 import mediapipe as mp
 from scipy.spatial.distance import cosine
 import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"  # Force TensorFlow to use CPU
+
 import requests
 import faiss
 import tensorflow as tf
