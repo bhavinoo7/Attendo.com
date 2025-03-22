@@ -242,3 +242,7 @@ async def recognize_face_from_video(video_request: VideoRequest):
         "message": "Face recognition completed",
         "recognized_students": recognized_students
     }
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)
